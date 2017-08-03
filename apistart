@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cd $HOME/botchi
-token="326292954:AAHK6WE7ljsOsEVyroezvNyChToGjksqCvg"
+token="408011725:AAEq-KJ0WQt-wVc-1f-_X7jcjV-FV5vsloA"
 function print_logo() {
 	echo -e "\033[38;5;600m"
 	echo -e "          bottabchi"
@@ -25,5 +25,5 @@ if [ ! $token ]; then
    echo -e "                        Mehr Server                           "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
-curl "https://api.telegram.org/bot346592355:AAHrYe8g8UjrZ3xkh_WMEuvoN9lDhdMVXvE/sendmessage" -F "chat_id=-" -F "text= botchi IS NOW RUNNING "
+curl "https://api.telegram.org/bot408011725:AAEq-KJ0WQt-wVc-1f-_X7jcjV-FV5vsloA/sendmessage" -F "chat_id=-" -F "text= botchi IS NOW RUNNING "
     ./tg -s ./bot/api.lua -p PROFILE --bot=$token
